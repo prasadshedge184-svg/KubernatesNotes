@@ -14,8 +14,9 @@ kubectl run apple \
 kubectl apply -f pod.yaml
 
 kubectl get pods
-
 kubectl get all -n fruits
-
+kubectl get all -n fruits -o wide
+kubectl get all,configmap,secret,ingress,pvc -n fruits
+kubectl api-resources --verbs=list -o name | xargs -n 1 kubectl get -n fruits
 ```
 
