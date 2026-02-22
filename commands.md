@@ -18,7 +18,6 @@ spec:
 ```bash
 kubectl apply -f pod.yaml
 ```
----
 ### 🔍 Verify Pod Creation
 ```bash
 kubectl get pods
