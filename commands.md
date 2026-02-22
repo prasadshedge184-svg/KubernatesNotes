@@ -1,6 +1,15 @@
 ### ✅ 1. Create a Pod using `kubectl run` 
 ```bash
-kubectl run my-pod --image=nginx --restart=Never
+kubectl run apple \
+  --image=nginx \
+  --restart=Never \
+  --port=80 \
+  --env="ENV=production" \
+  --labels="app=fruit,team=dev" \
+  --limits='cpu=1,memory=512Mi' \
+  --requests='cpu=0.5,memory=256Mi' \
+  -n fruits \
+  --tty --stdin
 ```
 ### ✅ 2. Create a Pod using a YAML file 
 ```yaml
