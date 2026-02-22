@@ -1,5 +1,4 @@
-# Kubernetes (K8s) – Quick Notes with Keywords
-
+# Kubernetes (K8s) 
 ---
 
 ## 📌 Definition
