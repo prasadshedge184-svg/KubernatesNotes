@@ -207,15 +207,3 @@ Kubernetes v1.27+ always supports server-side validation.
 * Required fields: `apiVersion`, `kind`, `metadata`, `spec`.
 * Validation helps prevent configuration errors.
 
----
-
-If you'd like, I can also give:
-
-* 📝 Short exam-ready notes
-* 📊 Diagram explanation
-* 🎯 Interview questions
-* 🧠 Mind map summary
-* 🧪 Practical examples
-
-Just tell me what format you prefer.
-
